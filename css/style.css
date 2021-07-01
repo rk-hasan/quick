@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+/* Header Start */
+header{
+    border-bottom: 2px solid #F1F3F8;
+    padding: 5px 0;
+}
+.container{
+   width: 90%;
+   /* border: 1px solid red; */
+   margin: 0 auto;
+   overflow: hidden; 
+}
+.logo{
+    width: 10%;
+    /* border: 1px solid green; */
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 40%;
+    /* border: 1px solid black; */
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    margin-left: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #36353B;
+    font-size: 16px;
+}
+.menu ul li a:hover{
+    color: #0024f0;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/* Header End */
+/* Start Banner */
+.banner{
+    text-align: center;
+    padding: 50px 0;
+}
+.container-2{
+    width: 70%;
+    margin: 0 auto;
+}
+.text-content h1{
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 125px;
+    line-height: 65px;
+}
+.text-content h1 span{
+    color: #0D65FA;
+}
+.text-content p{
+    margin: 0 113px;
+    line-height: 26px;
+    padding: 19px 0;
+}
+.banner-img{
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-img img{
+    width: 70%;
+}
+.success-content{
+    overflow: hidden;
+}
+.left-text{
+    float: left;
+    width: 51%;
+    text-align: right;
+}
+.left-text h2{
+    font-size: 55px;
+    margin: 0;
+    color: #F15767;
+}
+.left-text p{
+    margin-left: 114px;
+    text-align: right;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.right-text{
+    float: right;
+    width: 45%;
+    text-align: left;
+}
+.right-text h2{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* End Banner */
+/* Start Service */
+.service{
+    padding: 50px 0;
+}
+.service-1{
+    width: 25%;
+    padding: 30px 25px;
+    background-color: #FEEBED;
+    float: left;
+}
+.service-1-img{
+    width: 100%;
+}
+.service-1-img img{
+    width: 100%;
+}
+.service-1-text{
+    padding: 0 6px;
+}
+.service-1-text h3{
+    margin: 10px 0;
+}
+.service-1-text p{
+    line-height: 21px;
+    margin: 10px 65px 0 0;
+}
+.color-1{
+    background-color: #EBF9F4;
+    margin: 0 63px;
+}
+.color-2{
+    background-color: #FFF7E8;
+    float: right;
+}
+/* End Service */
+/* Start Footer */
+.footer-text{
+    background-color: #008AFF;
+    padding: 20px 0;
+    text-align: center;
+    color: #8FBEFF;
+    margin: 0;
+}
+.footer-text p span{
+    color: #ffffff;
+}
+/* End Footer */
+
